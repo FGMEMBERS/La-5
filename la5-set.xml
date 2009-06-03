@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- <PropertyList include="la5-jsbsim-cnf.xml"> -->
+<PropertyList include="la5-yasim-cnf.xml">
+
+  <sim>
+    <description>Lavochkin La 5 (YASim)</description>
+    <author>Emmanuel BARANGER (3D/FDM)</author>
+  </sim>
+
+</PropertyList>
+

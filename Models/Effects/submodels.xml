@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <!-- Gauche -->
+  <submodel>
+    <name>left-up-tracer</name>
+    <model>Aircraft/La-5/Models/Effects/apibullet-tracer.xml</model>
+    <trigger>controls/armament/trigger</trigger>
+    <speed>2460.0</speed>
+    <repeat>true</repeat>
+    <delay>0.6</delay>
+    <count>-1</count>
+    <x-offset> 11.381230 </x-offset> <!-- -3.469 m -->
+    <y-offset>  0.853018 </y-offset> <!-- -0.260 m -->
+    <z-offset>  1.922570 </z-offset> <!--  0.586 m -->
+    <yaw-offset> 0.0 </yaw-offset>
+    <pitch-offset> 0.1 </pitch-offset>
+    <life>4.0</life>
+    <wind>false</wind>
+    <weight>0.07495</weight>
+    <cd>0.193</cd>
+    <eda>0.00571198</eda> 
+    <collision>true</collision>
+    <collision-report>sim/ai/aircraft/collision/gun</collision-report>
+    <impact>true</impact>
+    <impact-report>sim/ai/aircraft/impact/gun</impact-report>
+  </submodel>
+
+  <!--Gauche -->
+  <submodel>
+    <name>right-up-tracer</name>
+    <model>Aircraft/La-5/Models/Effects/apibullet-tracer.xml</model>
+    <trigger>controls/armament/trigger</trigger>
+    <speed>2460.0</speed>
+    <repeat>true</repeat>
+    <delay>0.62</delay>
+    <count>-1</count>
+    <x-offset> 11.381230 </x-offset> <!-- -3.469 m -->
+    <y-offset> -0.853018 </y-offset> <!--  0.260 m -->
+    <z-offset>  1.922570 </z-offset> <!--  0.586 m -->
+    <yaw-offset> 0.0 </yaw-offset>
+    <pitch-offset> 0.1 </pitch-offset>
+    <life>4.0</life>
+    <wind>false</wind>
+    <weight>0.07495</weight>
+    <cd>0.193</cd>
+    <eda>0.00571198</eda> 
+    <collision>true</collision>
+    <collision-report>sim/ai/aircraft/collision/gun</collision-report>
+    <impact>true</impact>
+    <impact-report>sim/ai/aircraft/impact/gun</impact-report>
+  </submodel>
+
+</PropertyList>

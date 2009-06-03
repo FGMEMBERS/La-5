@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <sim include="Nasal/views.xml">
+
+    <author>BARANGER Emmanuel (3D/FDM)</author>
+    <aircraft-version>0.1</aircraft-version>
+    <status>Alpha</status>
+
+    <fuel-fraction>0.8</fuel-fraction>
+
+    <startup>
+     <splash-texture>Aircraft/La-5/la5-splash.png</splash-texture>
+    </startup>
+
+    <systems>
+      <electrical>
+        <path>Aircraft/j3cub/cub-electrical.xml</path>
+      </electrical>
+    </systems> 
+
+    <sound>
+      <path>Aircraft/La-5/Sounds/la5-sound.xml</path>
+    </sound>
+
+    <model>
+      <path archive="y">Aircraft/La-5/Models/la5.xml</path>
+      <livery>
+        <file type="string">default</file>
+      </livery>
+    </model>
+
+    <submodels> 
+      <serviceable type="bool">true</serviceable>
+      <path>Aircraft/La-5/Models/Effects/submodels.xml</path>
+    </submodels>
+
+    <multiplay>
+      <chat_display>1</chat_display>
+      <generic>
+        <int type="int">0</int>
+        <int type="int">0</int>
+        <int type="int">0</int>
+        <int type="int">0</int>
+        <int type="int">0</int>
+        <int type="int">0</int>
+      </generic>
+    </multiplay>
+
+    <help>
+      <title>Lavochkin La 5</title>
+      <key>
+        <name>d</name>
+        <desc>Open/Close canopy</desc>
+      </key>
+      <key>
+        <name>e</name>
+        <desc>Guns fire</desc>
+      </key>
+    </help>
+
+    <menubar include="Dialogs/la5-menu.xml"/>
+
+  </sim>
+
+  <yasim>
+    <la5>
+      <pilot-lb>180</pilot-lb>
+    </la5>
+  </yasim>
+
+  <engines>
+    <engine>
+      <rpm type="double">700</rpm>
+    </engine>
+  </engines>
+
+  <input>
+    <keyboard include="Nasal/la5-keyboard.xml"/>
+  </input>
+ 
+  <nasal>
+    <la5>
+      <file>Aircraft/La-5/Nasal/doors.nas</file>
+      <file>Aircraft/La-5/Nasal/immat.nas</file>
+      <file>Aircraft/La-5/Nasal/liveries.nas</file>
+    </la5>
+    <guns>
+      <file>Aircraft/La-5/Nasal/weapons.nas</file>
+      <file>Aircraft/La-5/Nasal/revi.nas</file>
+    </guns>
+  </nasal>
+
+</PropertyList>
+
