@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 
 <PropertyList>
 
@@ -11,7 +11,107 @@
     <!-- Objets transparents -->
   </animation>
 
-  <!-- Clock -->
+  <!-- REVI -->
+  <model>
+    <path>Aircraft/La-5/Models/Interior/Panel/Instruments/N-9_Gunsight/N-9_Gunsight.xml</path>
+    <offsets>
+      <x-m> 0.000 </x-m>
+      <y-m> 0.000 </y-m>
+      <z-m> 0.183 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- ASI -->
+  <model>
+    <path>Aircraft/La-5/Models/Interior/Panel/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m> -0.005 </x-m>
+      <y-m> -0.080 </y-m>
+      <z-m>  0.140 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- ALT -->
+  <model>
+    <path>Aircraft/La-5/Models/Interior/Panel/Instruments/alt/alt.xml</path>
+    <offsets>
+      <x-m> -0.004 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m>  0.100 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- MAGNETIC COMPASS -->
+  <model>
+    <path>Aircraft/La-5/Models/Interior/Panel/Instruments/MagneticCompass/compas.xml</path>
+    <offsets>
+      <x-m> -0.006 </x-m>
+      <y-m>  0.057 </y-m>
+      <z-m>  0.099 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- MANIFOLD -->
+  <model>
+    <path>Aircraft/La-5/Models/Interior/Panel/Instruments/man/man.xml</path>
+    <offsets>
+      <x-m> -0.004 </x-m>
+      <y-m>  0.115 </y-m>
+      <z-m>  0.100 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- PSI -->
+  <model>
+    <path>Aircraft/La-5/Models/Interior/Panel/Instruments/psi/psi.xml</path>
+    <offsets>
+      <x-m> -0.004 </x-m>
+      <y-m>  0.172 </y-m>
+      <z-m>  0.100 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- VOLTMETER -->
+  <model>
+    <path>Aircraft/La-5/Models/Interior/Panel/Instruments/voltmeter/voltmeter.xml</path>
+    <offsets>
+      <x-m> -0.004 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m>  0.038 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- TURN -->
+  <model>
+    <path>Aircraft/La-5/Models/Interior/Panel/Instruments/turn/turn.xml</path>
+    <offsets>
+      <x-m> -0.002 </x-m>
+      <y-m>  0.057 </y-m>
+      <z-m>  0.038 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- VSI -->
+  <model>
+    <path>Aircraft/La-5/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
+    <offsets>
+      <x-m> -0.002 </x-m>
+      <y-m>  0.115 </y-m>
+      <z-m>  0.038 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- TEMP -->
+  <model>
+    <path>Aircraft/La-5/Models/Interior/Panel/Instruments/temp/temp.xml</path>
+    <offsets>
+      <x-m> 0.000 </x-m>
+      <y-m> 0.172 </y-m>
+      <z-m> 0.038 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- CLOCK -->
   <model>
     <path>Aircraft/La-5/Models/Interior/Panel/Instruments/clock/clock.xml</path>
     <offsets>
@@ -21,27 +121,7 @@
     </offsets>
   </model>
 
-  <!-- Asi -->
-  <model>
-    <path>Aircraft/La-5/Models/Interior/Panel/Instruments/asi/asi.xml</path>
-    <offsets>
-      <x-m> -0.005 </x-m>
-      <y-m> -0.080 </y-m>
-      <z-m>  0.140 </z-m>
-    </offsets>
-  </model>
-
-  <!-- Alt -->
-  <model>
-    <path>Aircraft/La-5/Models/Interior/Panel/Instruments/alt/alt.xml</path>
-    <offsets>
-      <x-m> -0.004 </x-m>
-      <y-m>  0.000 </y-m>
-      <z-m>  0.100 </z-m>
-    </offsets>
-  </model>
-
-  <!-- Rpm -->
+  <!-- RPM -->
   <model>
     <path>Aircraft/La-5/Models/Interior/Panel/Instruments/rpm/rpm.xml</path>
     <offsets>
@@ -51,24 +131,145 @@
     </offsets>
   </model>
 
-  <!-- Rpm -->
+  <!-- FUEL -->
   <model>
-    <path>Aircraft/La-5/Models/Interior/Panel/Instruments/rpm/rpm.xml</path>
+    <path>Aircraft/La-5/Models/Interior/Panel/Instruments/fuel/fuel.xml</path>
     <offsets>
-      <x-m> -0.002 </x-m>
-      <y-m>  0.086 </y-m>
-      <z-m>  0.153 </z-m>
+      <x-m> -0.001 </x-m>
+      <y-m> -0.165 </y-m>
+      <z-m>  0.092 </z-m>
     </offsets>
   </model>
-
-  <!-- MagneticCompass -->
+  
+  <!-- MAGNETOS -->
   <model>
-    <path>Aircraft/La-5/Models/Interior/Panel/Instruments/MagneticCompass/compas.xml</path>
+    <path>Aircraft/La-5/Models/Interior/Panel/Instruments/switches/magnetos.xml</path>
     <offsets>
-      <x-m> -0.006 </x-m>
-      <y-m>  0.057 </y-m>
-      <z-m>  0.099 </z-m>
+      <x-m> -0.008 </x-m>
+      <y-m> -0.195 </y-m>
+      <z-m> -0.035 </z-m>
     </offsets>
   </model>
-
+  
+  <!-- GEAR LAMPS -->
+  <!-- Down -->
+  <model>
+    <path>Aircraft/La-5/Models/Interior/Panel/Instruments/Lights/gearup-lamp.xml</path>
+    <offsets>
+      <x-m> -0.010 </x-m>
+      <y-m> -0.040 </y-m>
+      <z-m> -0.016 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/La-5/Models/Interior/Panel/Instruments/Lights/gearup-lamp.xml</path>
+    <offsets>
+      <x-m> -0.010 </x-m>
+      <y-m> -0.008 </y-m>
+      <z-m> -0.016 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- Up -->
+  <model>
+    <path>Aircraft/La-5/Models/Interior/Panel/Instruments/Lights/gear-lamp.xml</path>
+    <offsets>
+      <x-m> -0.010 </x-m>
+      <y-m> -0.040 </y-m>
+      <z-m> -0.030 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/La-5/Models/Interior/Panel/Instruments/Lights/gear-lamp.xml</path>
+    <offsets>
+      <x-m> -0.010 </x-m>
+      <y-m> -0.024 </y-m>
+      <z-m> -0.016 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/La-5/Models/Interior/Panel/Instruments/Lights/gear-lamp.xml</path>
+    <offsets>
+      <x-m> -0.010 </x-m>
+      <y-m> -0.008 </y-m>
+      <z-m> -0.030 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- Switch Light -->
+  <model>
+    <path>Aircraft/La-5/Models/Interior/Panel/Instruments/switches/switch.xml</path>
+    <offsets>
+      <x-m> -0.007 </x-m>
+      <y-m>  0.030 </y-m>
+      <z-m> -0.020 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/La-5/Models/Interior/Panel/Instruments/switches/landing-lights.xml</path>
+    <offsets>
+      <x-m> -0.007 </x-m>
+      <y-m>  0.050 </y-m>
+      <z-m> -0.020 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/La-5/Models/Interior/Panel/Instruments/switches/switch.xml</path>
+    <offsets>
+      <x-m> -0.007 </x-m>
+      <y-m>  0.070 </y-m>
+      <z-m> -0.020 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/La-5/Models/Interior/Panel/Instruments/switches/switch.xml</path>
+    <offsets>
+      <x-m> -0.007 </x-m>
+      <y-m>  0.090 </y-m>
+      <z-m> -0.020 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/La-5/Models/Interior/Panel/Instruments/switches/instruments.xml</path>
+    <offsets>
+      <x-m> -0.007 </x-m>
+      <y-m>  0.210 </y-m>
+      <z-m> -0.020 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/La-5/Models/Interior/Panel/Instruments/switches/switch.xml</path>
+    <offsets>
+      <x-m> -0.007 </x-m>
+      <y-m>  0.230 </y-m>
+      <z-m> -0.020 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/La-5/Models/Interior/Panel/Instruments/switches/nav-lights.xml</path>
+    <offsets>
+      <x-m> -0.007 </x-m>
+      <y-m>  0.250 </y-m>
+      <z-m> -0.020 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/La-5/Models/Interior/Panel/Instruments/switches/switch.xml</path>
+    <offsets>
+      <x-m> -0.007 </x-m>
+      <y-m>  0.270 </y-m>
+      <z-m> -0.020 </z-m>
+    </offsets>
+  </model>
+  
 </PropertyList>

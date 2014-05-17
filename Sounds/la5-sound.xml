@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 
 <PropertyList>
 
@@ -272,46 +272,30 @@
     </stall>
 
     <!--                  Toggle Switches                  -->     
-    <switch>
+    <click> 
       <name>click on</name>
-      <mode>once</mode>
       <path>Sounds/click.wav</path>
-      <condition>
-        <property>sim/Sounds/switch</property>
+      <condition> 
+        <property>sim/sound/click</property>
       </condition>
-      <volume>
-        <offset> 0.7 </offset>
+      <volume> 
+        <factor>1</factor>
       </volume>
-      <position>
-        <x> -0.5 </x>
-        <y>  0.0 </y>
-        <z>  0.0 </z>
-      </position>
-      <reference-dist> 2.0 </reference-dist>
-      <max-dist> 4.0 </max-dist>
-    </switch>
-
-    <switch>
+    </click>
+    
+    <click> 
       <name>click off</name>
-      <mode>once</mode>
       <path>Sounds/click.wav</path>
       <condition>
         <not>
-          <property>sim/Sounds/switch</property>
+          <property>sim/sound/click</property>
         </not>
       </condition>
-      <volume>
-        <offset> 0.7 </offset>
+      <volume> 
+        <factor>1</factor>
       </volume>
-      <position>
-        <x> -0.5 </x>
-        <y>  0.0 </y>
-        <z>  0.0 </z>
-      </position>
-      <reference-dist> 2.0 </reference-dist>
-      <max-dist> 4.0 </max-dist>
-    </switch>
-
+    </click>
+    
     <rain>
       <name>rain</name>
       <mode>looped</mode>
@@ -341,7 +325,7 @@
     <gun>
       <name>Gun up left</name>
       <mode>looped</mode>
-      <path>Aircraft/La-5/Sounds/gunfire_1.wav</path>
+      <path>Aircraft/La-5/Sounds/gunfire.wav</path>
       <condition>
         <and>
           <property>controls/armament/trigger</property>
@@ -360,7 +344,7 @@
     <gun>
       <name>Gun up right</name>
       <mode>looped</mode>
-      <path>Aircraft/La-5/Sounds/gunfire_1.wav</path>
+      <path>Aircraft/La-5/Sounds/gunfire.wav</path>
       <condition>
         <and>
           <property>controls/armament/trigger</property>
