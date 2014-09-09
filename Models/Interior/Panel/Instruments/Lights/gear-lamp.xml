@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+  
+  <path>greenlight.ac</path>
+  
+  <animation> 
+    <object-name>Base</object-name>
+    <object-name>lens</object-name>
+    <object-name>light</object-name>
+  </animation> 
+  
+  <animation>
+    <type>material</type>
+    <object-name>lens</object-name>
+    <emission>
+      <red>   0.1 </red>
+      <green> 0.1 </green>
+      <blue>  0.1 </blue>
+    </emission>
+  </animation>
+  
+  <animation>
+    <type>material</type>
+    <object-name>light</object-name>
+    <emission>
+      <red>   2 </red>
+      <green> 2 </green>
+      <blue>  2 </blue>
+    </emission>
+  </animation>
+  
+  <animation>
+    <type>select</type>
+    <object-name>light</object-name>
+    <condition>
+      <equals>
+        <property>gear/gear/position-norm</property>
+        <value>1</value>
+      </equals>
+    </condition>
+  </animation>
+  
+</PropertyList>

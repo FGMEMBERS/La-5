@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>temp.ac</path>
+
+  <animation>
+    <object-name>fond</object-name>
+    <object-name>face</object-name>
+    <object-name>cache</object-name>
+    <object-name>needle</object-name>
+    
+    <object-name>vitre</object-name>
+  </animation>
+
+  <!-- working for Rembrandt -->
+  <effect>
+    <inherits-from>Aircraft/La-5/Models/Effects/Glass/glass</inherits-from>
+    <object-name>vitre</object-name>
+  </effect>
+  
+  <animation>
+    <type>material</type>
+    <object-name>face</object-name>
+    <object-name>cache</object-name>
+    <object-name>needle</object-name>
+    <emission>
+      <factor-prop>controls/lighting/instruments-norm</factor-prop>
+      <red>   0.50 </red>
+      <green> 0.25 </green>
+      <blue>  0.25 </blue>
+    </emission>
+  </animation>
+  
+  <animation>
+    <type>rotate</type>
+    <object-name>needle</object-name>
+    <property>engines/engine[0]/egt-degf</property>
+    <interpolation>
+      <entry><ind>   0 </ind><dep>   0 </dep></entry> <!--   0 degC -->
+      <entry><ind> 212 </ind><dep>  38 </dep></entry> <!-- 100 degC -->
+      <entry><ind> 392 </ind><dep>  90 </dep></entry> <!-- 200 degC -->
+      <entry><ind> 572 </ind><dep> 113 </dep></entry> <!-- 300 degC -->
+    </interpolation>
+    <center>
+      <x-m> -0.00135 </x-m>
+      <y-m>  0.00000 </y-m>
+      <z-m> -0.00916 </z-m>
+    </center>
+    <axis>
+      <x> 1 </x>
+      <y> 0 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+  
+</PropertyList>
